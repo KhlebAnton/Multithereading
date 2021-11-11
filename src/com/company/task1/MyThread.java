@@ -15,7 +15,7 @@ public class MyThread extends Thread {
         try {
             while (!isInterrupted()) {
                 Thread.sleep(2500);
-                System.out.println(getName() + "Всем привет!");
+                System.out.println(getName() + " Всем привет!");
             }
         } catch (InterruptedException e) {
 
